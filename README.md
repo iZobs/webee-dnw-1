@@ -21,8 +21,10 @@ __2.linux 的dnw驱动__
 
 __1.编译安装__
 
-	$ makess                                 
-	$ sudo make install                            
+	$ make                                 
+	$ sudo make install   
+
+注意：使用的gcc，g++的版本必需和Ubuntu系统默认带的gcc版本一致，编译器版本不能太低。
 
 __2.dnw 工具的使用__ 
 
